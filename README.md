@@ -12,18 +12,31 @@ The initial code allows you to blink the two sets of six leds in a count down co
 Hardware:
 
 1 - QTPY ESP32-S3
+
 1 - USBC cable
+
 1 - ElectroCookie Prototype board (1/4 board)
+
 2 - 8pin headers
+
 12 - 3mm colored leds
+
 12 - Mini SPST switches prewired
+
 1 - 3D printed case base (See STL files)
+
 1 - 3D printed case top (See STL files)
+
 1 - 3D printed case front panel (See STL files)
+
 1 - PDF of the front face of the Altair 8800
+
 1 - Glue Stick and Super Glue
+
 1 - Hot Glue and gun
+
 1 - Small screw or bolt to attach top to case
+
 
 Software:
 
