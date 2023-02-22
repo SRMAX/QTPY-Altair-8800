@@ -42,7 +42,7 @@ Hardware:
 1 - Small screw or bolt to attach top to case
 
 3D Models:
-The modified 3D Models in 3mf format for printing case can be found ing the models directory.
+The modified 3D Models in 3mf format for printing case can be found in the models directory.
 Sincere thanks to Rabbit Engineering for providing such a great starting point for my project.
 
 Software:
