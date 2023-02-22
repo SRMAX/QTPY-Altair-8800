@@ -1,4 +1,4 @@
-# QTPY-Altair-8800-
+# QTPY-Altair-8800
 A circuitpython project to create a miniature replica of the Altair 8800 computer using an Adafruit QYPY ESP32-S3.
 
 ![Altair ESP32 S3](images/Altair1.jpeg)
