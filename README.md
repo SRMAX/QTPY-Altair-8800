@@ -1,13 +1,19 @@
 # QTPY-Altair-8800-
 A circuitpython project to create a miniature replica of the Altair 8800 computer using an Adafruit QYPY ESP32-S3.
 
+![Altair ESP32 S3](images/Altair1.jpeg)
+
 Before the Apple and IBM PCs made microcomputers household names their was the Altair 8800. It was a microcomputer designed in 1974 by MITS and based on the Intel 8080 CPU. Interest grew quickly after it was featured on the cover of the January 1975 issue of Popular Electronics and was sold by mail order through advertisements. In wanting to bring back memories of wanting one of these I wanted to create a miniature of these for my office. I found a Raspberry Pi 3 case on Thingverse by Rabbit Engineering that would work for what I wanted with little modification. I wanted it to at least look functional by having leds light up and have switches to change the led sequences and add additional functionallity in the future.
+
+
 
 I chose to use an Adafruit QTPY ESP32-S3, but it is overkill for this in the initial stage 1 form. I plan to add a temperature, humidity, preasure, and VOC sensor next.
 
 The case can hold 12 leds and 6 switches. The QTPY is limited pins so I chose to use six GPIO pins each feeding two colored leds prewired with resistors to keep the board as simple as possible. The remaining 5 GPIO pins are wired through mini-switches to ground. The sixth switch in currently unused. Later this pin will be used to switch on battery power to make this board very portable.
 
 The initial code allows you to blink the two sets of six leds in a count down counter or an asyncronous random pattern depending on the state of the switch connected to the SCK pin of the QTPY. Later versions will add diffent patterns and an all on test.
+
+![Altair ESP32 S3](images/Altair3.jpeg)
 
 Hardware:
 
