@@ -5,8 +5,6 @@ A circuitpython project to create a miniature replica of the Altair 8800 compute
 
 Before the Apple and IBM PCs made microcomputers household names their was the Altair 8800. It was a microcomputer designed in 1974 by MITS and based on the Intel 8080 CPU. Interest grew quickly after it was featured on the cover of the January 1975 issue of Popular Electronics and was sold by mail order through advertisements. In wanting to bring back memories of wanting one of these I wanted to create a miniature of these for my office. I found a Raspberry Pi 3 case on Thingverse by Rabbit Engineering that would work for what I wanted with little modification. I wanted it to at least look functional by having leds light up and have switches to change the led sequences and add additional functionallity in the future.
 
-
-
 I chose to use an Adafruit QTPY ESP32-S3, but it is overkill for this in the initial stage 1 form. I plan to add a temperature, humidity, preasure, and VOC sensor next.
 
 The case can hold 12 leds and 6 switches. The QTPY is limited pins so I chose to use six GPIO pins each feeding two colored leds prewired with resistors to keep the board as simple as possible. The remaining 5 GPIO pins are wired through mini-switches to ground. The sixth switch in currently unused. Later this pin will be used to switch on battery power to make this board very portable.
@@ -43,6 +41,9 @@ Hardware:
 
 1 - Small screw or bolt to attach top to case
 
+3D Models:
+The modified 3D Models in 3mf format for printing case can be found ing the models directory.
+Sincere thanks to Rabbit Engineering for providing such a great starting point for my project.
 
 Software:
 
@@ -70,7 +71,7 @@ References:
 
 The QTPY ESP32-S3 https://www.adafruit.com/5426
 
-Original thingverse files from by Rabbit Engineeringhttps://www.thingiverse.com/thing:3784996
+Original thingverse files from by Rabbit Engineering. https://www.thingiverse.com/thing:3784996
 
 ElectroCookie Prototype board https://www.amazon.com/gp/product/B08151V9TS/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1
 
